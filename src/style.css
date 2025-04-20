@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+
+    --primary-color: #4062b7;
+    --usual-color: black;
+    --next-usual-color: white;
+    --obs-color: #d80000;
+
+    --usual-size: 1em;
+    --next-usual-size: .5em;
+    --main-font-size: .9em;
+}
+/* HEADER */
+header { margin: var(--usual-size); }
+
+/* MAIN */
+.container-project-third {
+    height: 85vh;
+    margin: var(--usual-size);
+    border: 2px solid;
+}
+.container-project-general .container-project-third {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.btn-cta {
+    border: 1px solid;
+    background-color: transparent;
+    cursor: pointer;
+    padding: var(--next-usual-size);
+}
+.btn-cta:hover {
+    background-color: var(--usual-color);
+    color: var(--next-usual-color);
+    transition: background-color .5s, color .5s;
+}
+
+
+/* CHECKED */
+#secondMySub {
+    margin-top: var(--next-usual-size);
+}
+.result-texts {
+    width: 10em;
+}
